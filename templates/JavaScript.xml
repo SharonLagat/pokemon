@@ -1,0 +1,35 @@
+<templateSet group="JavaScript">
+  <template name="for" value="for (let $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  let $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="elementen uit een array juiste volgorde tonen" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="efor" value="for (let $INDEX$ = $ARRAY$.length - 1; $INDEX$ &gt;= 0; $INDEX$--) {&#10;  let $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Elementen uit een array opgekeerd tonen" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($COND$) {&#10;  $END$&#10;}" description="als statement" toReformat="false" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifel" value="if ($COND$) {&#10;  $END$&#10;} else {&#10;&#10;}" description="als dan statement" toReformat="false" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dom" value="&quot;DOMContentLoaded&quot;" description="start js DOMContentLoaded" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
