@@ -53,4 +53,10 @@ figure figcaption
     text-align: center;
 }
 
+div {
+    width: 300px;
+    border: solid;
+    border-radius: 5px;
+}
+
 /*afb, naam, type*/
