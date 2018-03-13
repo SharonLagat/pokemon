@@ -1,0 +1,37 @@
+<templateSet group="indeling">
+  <template name="header" value="&lt;header&gt;$SELECTION$&lt;/header&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="main" value="&lt;main&gt;$SELECTION$&lt;/main&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="section" value="&lt;section&gt;$SELECTION$&lt;/section&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="footer" value="&lt;footer&gt;$SELECTION$&lt;/footer&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="aside" value="&lt;aside&gt;$SELECTION$&lt;/aside&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="article" value="&lt;article&gt;$SELECTION$&lt;/article&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="nav" value="&lt;nav&gt;$SELECTION$&lt;/nav&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
