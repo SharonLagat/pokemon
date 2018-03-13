@@ -1,25 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
 <head>
-    <title>Pokemon</title>
+    <meta charset="UTF-8">
+    <title>Pokémon: Gotta catch 'em all</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css" />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
-    <link rel="stylesheet" href="assets/css/screen.css" type="text/css"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="autor" content="Oksana Gorin"/>
-
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:Kernteam msdt:dt="string">45;#TI|a7fece31-07e2-4c0a-9f38-c0563f047e67</mso:Kernteam>
+<mso:TaxCatchAll msdt:dt="string">45;#TI|a7fece31-07e2-4c0a-9f38-c0563f047e67</mso:TaxCatchAll>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
 </head>
 <body>
 
+    <header>
+        <h1>Choose your Pokémon to catch!</h1>
+        <img src="images/ourpoky.jpg" />
+    </header>
 
+    <main>
+        <h2>Apply your filter criteria</h2>
+        <form id="pokeForm">
+            <label for="pokeSize">Filter by size:</label>
+            <select id="pokeSize"></select>
+            <label for="pokeType">Filter by type:</label>
+            <select id="pokeType"></select>
+            <label for="pokeMatch">Matching Pokémon:</label>
+            <select id="pokeMatch"></select>
+            <input type="submit" value="Catch!" />
+        </form>
 
+        <h2>Caught Pokémon:</h2>
 
-
-
-
-<script  src="assets/js/script.js">
-
-</script>
+        <ul id="pokeCatch"><li>none</li></ul>
+    </main>
+    
+    <script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/pokedex.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
 
 </body>
 </html>
