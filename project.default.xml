@@ -21,6 +21,9 @@
         <property name="JavaScriptPreferStrict" value="true" />
         <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
       </component>
+      <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000" />
+      </component>
     </defaultProject>
   </component>
 </application>
