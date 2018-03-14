@@ -1,25 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
-    <title>Pokemon</title>
+    <meta charset="UTF-8">
+    <title>Pokédex voor zoonlief</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css" />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
-    <link rel="stylesheet" href="assets/css/screen.css" type="text/css"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="autor" content="Oksana Gorin"/>
 
 </head>
 <body>
 
+<header>
+    <img src="images/logo++.png" id="pokoLogo" />
+    <h1>Choose your Pokémon to catch!</h1>
 
+</header>
 
+<main>
 
+    <h2>Apply your filter criteria</h2>
+    <form id="pokeForm">
+        <label for="pokeSize">Filter by size:</label>
+        <select id="pokeSize"></select>
+        <label for="pokeType">Filter by type:</label>
+        <select id="pokeType"></select>
+        <!--<label for="pokeMatch">Matching Pokémon:</label>
+        <select id="pokeMatch"></select>
+        <input type="submit" value="Catch!" />-->
+    </form>
 
+    <div id="pokemon1">
+        <img src="" id="afbeeldingPokemon1" />
 
+        <p id="pokemon1Name"></p>
+        <p id="pokemon1Type"></p>
+    </div>
 
-<script  src="assets/js/script.js">
+    <h2>Pokemons:</h2>
 
-</script>
+    <ul id="pokeCatch"><li>none</li></ul>
+</main>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
 
 </body>
 </html>
