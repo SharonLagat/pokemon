@@ -1,5 +1,16 @@
 <application>
   <component name="libraryTable">
+    <library name="canvasjs" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_canvasjs.com_assets_script_canvasjs.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_canvasjs.com_assets_script_canvasjs.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="d3.v5" type="javaScript">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_d3js.org_d3.v5.js" />
